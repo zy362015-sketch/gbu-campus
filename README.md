@@ -27,6 +27,12 @@ npm start
 
 Open http://127.0.0.1:5190/ for the day tour or http://127.0.0.1:5190/night/ for the night game. Run all commands from the repository root; the root build packages both modes together. Rebuild after changing source files. The completed build works without internet access. Fonts, geometry, materials and sound generation are local.
 
+### Controls
+
+In the day tour, choose **Take the guided visit** for the guided route or **Explore on foot** for manual control. Use **W A S D** or the arrow keys to walk, drag the scene to look around, press **Q** or **E** to turn, hold **Shift** to walk faster, and press **Esc** to pause or resume. On a touch screen, use the direction buttons and drag the scene to look around.
+
+In the night game, choose **Begin the night** for manual play or **Watch demo** from the title screen. Use **W A S D** or the arrow keys to walk, drag to look, hold **E** to interact, press **F** for the torch, **Q** for the decoy bell, **Shift** to run, **Space** to kick, and **1 2 3** to play the residence notes. Press **Esc** to pause. Touch controls provide movement, sprint, torch, bell, kick and interaction buttons when available.
+
 On Windows, after the first build you can also double-click **Start-GBU-Campus.cmd**. It uses the existing Codex Node runtime when available, otherwise Node from PATH, and opens the game.
 
 **5190 is the default local port.** Both `npm start` and the Windows launcher respect the `PORT` environment variable. To choose another port, set it before starting. For example, in PowerShell:
